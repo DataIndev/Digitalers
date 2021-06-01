@@ -15,6 +15,7 @@ window.addEventListener("load", () => {
     }
     else{
         totalExcursion = turistas * 50;
+        
     }
 
     pagoPorPersona = (totalMicro + totalExcursion) / turistas;
